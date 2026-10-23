@@ -109,3 +109,48 @@ h1.ptitle,.ptitle2,.btitle,.khead,.noevents2,.ctitle3,.mtitle{font-family:Libre 
 .mtitle{text-align:center !important}
 h2.sub,h2.subev{font-family:Libre Baskerville,serif !important;font-style:normal !important;font-size:30px !important;font-weight:400 !important;color:#000 !important;margin:40px 0 16px !important}
 p.copy{color:transparent !important}
+@media (max-width:1100px){
+.canvas{width:auto;overflow-x:hidden}
+.blob-l,.blob-r{display:none}
+.lang{top:12px;right:12px}
+.lang a.lng{width:auto;padding:0 8px}
+a.blogo{position:static;display:inline-block;width:46px;height:46px;margin:16px 0 0 16px}
+a.bname{position:static;display:inline-block;width:210px;height:47px;margin:16px 0 0 10px}
+a.blogo img,a.bname img{width:100%;height:100%}
+nav.menu{position:static;display:flex;flex-wrap:wrap;margin:14px 10px 0}
+nav.menu a{width:auto !important;padding:7px 11px;line-height:1.2;font-size:18px}
+.headspace{height:0}
+main.strip{min-height:0}
+.col,.colwide{margin:22px 16px 34px;max-width:none;width:auto}
+h1.ptitle{font-size:30px}
+h2.sub,h2.subev{font-size:24px;margin:30px 0 12px}
+p.lead{font-size:19px}
+ul.grey{padding-left:26px}
+ul.grey li{font-size:19px;line-height:1.5}
+.press{width:auto;margin:22px 16px}
+.pitem{font-size:22px;line-height:30px;margin:0 0 28px}
+.board{width:auto;margin:22px 16px}
+.bline{font-size:22px;line-height:30px;margin:0 0 24px}
+.btitle{margin-bottom:40px}
+.memberpage{width:auto;margin:22px 16px 0}
+.mtitle{font-size:28px;text-align:left;margin:0 0 28px}
+.mline{font-size:21px;margin:0 0 30px}
+form.member{max-width:none;margin:16px 16px 0}
+.contact{width:auto;margin:30px 16px 0}
+.ctitle3{font-size:26px;margin:0 0 34px}
+.cmail{font-size:24px}
+.social{margin:8px 16px}
+.khead{width:auto;margin:30px 16px 26px;text-align:center}
+.cards2{flex-direction:column;gap:18px;margin:0 16px}
+a.card2{width:auto}
+.cimg{width:100%}
+a.card2 .clabel{margin-left:2px}
+a.card2 .cname,a.card2 .cprice{margin-left:2px;max-width:none}
+.funders{position:static;width:auto;height:auto;margin:34px 16px 0;display:flex;flex-wrap:wrap;gap:22px;align-items:center}
+.funders img{position:static;width:auto;height:46px}
+.prod{flex-direction:column;margin:0 16px}
+.prod img.pimg{width:100%;max-width:340px;height:auto}
+.ig-grid{margin:0 16px;width:auto;max-width:none}
+.noevents2{width:auto;margin:44px 16px;padding:0}
+.evcover{max-height:280px;object-fit:cover}
+footer.strip{padding:18px 16px 34px}}
